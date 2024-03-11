@@ -1,0 +1,10 @@
+﻿
+@model WebApplication1.Models.User
+
+<form method="post" asp-action="ConfirmOrder" style="background-color: #f2f2f2; padding: 20px; border-radius: 5px;">
+    <label style="font-weight: bold;">Скільки одиниць товару ви бажаєте замовити?</label>
+    <input type="number" name="products[0].Quantity" required style="margin-bottom: 10px; width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <button type="submit" style="background-color: #4CAF50; color: white; padding: 14px 20px; border: none; border-radius: 4px; cursor: pointer; width: 100%;">Підтвердити</button>
+</form>
+
+
